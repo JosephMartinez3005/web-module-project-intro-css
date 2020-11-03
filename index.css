@@ -1,0 +1,29 @@
+html{
+    background-color:ivory;;
+    font-size:62.5%;
+    font-style:san-seriff;
+}
+
+.plan{
+    background-color: #ff764e;
+    font-size:3rem;
+}
+
+
+li{
+    display:inline-block;
+    margin:3%;
+    width:22%;
+    border-radius: 5%;
+    padding:10px;
+    color:white;
+    text-align:center;
+    font-size:3rem;
+    font-family: 'Chelsea Market', cursive;
+}
+.learn{
+    background-color: #5ED3EB;
+}
+.get{
+    background-color: #FFCD69;
+}
