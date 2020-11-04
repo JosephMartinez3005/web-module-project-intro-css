@@ -14,9 +14,11 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 62.5%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    background-color:ivory;
+    font-family: 'Roboto Mono', monospace;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -43,32 +45,26 @@ table {
 }
 
 
-html{
-    background-color:ivory;;
-    font-size:62.5%;
-    font-style:san-seriff;
-}
-
-.plan{
-    background-color: #ff764e;
-    font-size:3rem;
-}
-
-
 li{
     display:inline-block;
     margin:2%;
-    width:22%;
+    width:20%;
     border-radius: 5%;
     padding:10px;
     color:white;
     text-align:center;
-    font-size:3rem;
-    font-family: 'Chelsea Market', cursive;
+    font-size:1.5rem;
+    
 }
+
+.plan{
+    background-color: #ff764e;
+}
+
 .learn{
     background-color: #5ED3EB;
 }
+
 .get{
     background-color: #FFCD69;
 }
@@ -77,3 +73,31 @@ li{
     margin-top:4%;
     text-align:center;
 }
+
+.row2{
+    padding-left:10%;
+    padding-top:%;
+}
+
+.img1{
+    border-radius: 50%;
+    display: inline-block;
+    width:30%;
+    height:auto;
+}
+
+h1{
+    display: inline;
+    font-size:2.5rem;
+    margin-top:-5%;
+}
+
+h2{
+    display: inline;
+}
+p{
+    display: inline-block;
+    width:50%;
+    float:right;
+}
+
