@@ -17,7 +17,6 @@ time, mark, audio, video {
 	font-size: 62.5%;
 	font: inherit;
     vertical-align: baseline;
-    background-color:ivory;
     font-family: 'Roboto Mono', monospace;
 }
 /* HTML5 display-role reset for older browsers */
@@ -43,7 +42,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/* This is where my code starts */
 
 li{
     display:inline-block;
@@ -53,7 +52,7 @@ li{
     padding:10px;
     color:white;
     text-align:center;
-    font-size:1.5rem;
+    font-size:1rem;
     
 }
 
@@ -68,36 +67,81 @@ li{
 .get{
     background-color: #FFCD69;
 }
-
+/* This is where the image and the h1 share the same row */
 .row{
     margin-top:4%;
     text-align:center;
 }
 
+.mainHead{
+     width:100%;
+     padding-top:5%;
+}
+
 .row2{
     padding-left:10%;
+    height:30vh;
     width:30%;
-    
+    display: inline-block;
 }
 
 .img1{
     border-radius: 50%;
-    width:30%;
+    width:75%;
     height:auto;
 }
 
+.row2right{
+    width:50%;
+    display: inline-block;
+}
+
 h1{
-    display: inline;
-    font-size:2.5rem;
-    margin-top:-5%;
+    font-size:2rem;
     font-family: 'Chelsea Market', cursive;
 }
 
 h2{
     display: inline;
+    font-size:.8rem;
 }
-p{
+.firstP{
     display: inline-block;
-    width:50%;
+    width:100%;
+    font-size:1rem;
+}
+/* This is where we have the paragraph with a diffrent color background. */
+
+.info{
+    width:90%;
+    text-align:center;
+    background-color: #DDB9A3;
+    margin:5%;
+}
+.info p {
+    font-size: .8rem;
+    color:white;
+    padding:2%;
+
+}
+/* This is where the fire logo starts */
+.restrictions{
+    text-align: center;
+    padding-left:5%;
+    font-size:.8rem;
+}
+.fire{
+    width:15%;
 }
 
+/* This is where the van section is. */
+
+.recommend{
+    text-align: center;
+    padding-left:5%;
+    font-size:.8rem;
+}
+
+.van{
+    width:20%;
+}
