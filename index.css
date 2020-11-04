@@ -59,14 +59,28 @@ li{
 .plan{
     background-color: #ff764e;
 }
+.plan:hover{
+    font-size:1.5rem;
+    transition:250ms;
+}
 
 .learn{
     background-color: #5ED3EB;
+}
+.learn:hover{
+    font-size:1.5rem;
+    transition:250ms;
 }
 
 .get{
     background-color: #FFCD69;
 }
+
+.get:hover{
+    font-size:1.5rem;
+    transition:250ms;
+}
+
 /* This is where the image and the h1 share the same row */
 .row{
     margin-top:4%;
